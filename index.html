@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iancdavid</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+  html {
+  scroll-behavior: smooth;
+}
+
+    body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #e2e8f0;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url("background.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+  .card img {
+    transition: transform 0.3s ease;
+  }
+
+  .card img:hover {
+    transform: scale(1.05);
+  }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    p {
+      color: #94a3b8;
+    }
+
+    .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+
+  background: linear-gradient(135deg, #22c55e, #4ade80);
+  color: black;
+
+  border-radius: 10px;
+  font-weight: bold;
+
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.4);
+}
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 15px;
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 20px 60px rgba(34, 197, 94, 0.2);
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>iancdavid</h1>
+    <p>Beginner Developer | Linux | Hardware</p>
+    <a class="btn" href="https://github.com/iancdavid" target="_blank">
+      View My GitHub
+    </a>
+  </header>
+
+  <section>
+    <h2>Projects</h2>
+
+    <div class="card">
+  <a href="https://github.com/iancdavid/ShawOS" target="_blank">
+    <img src="project1.jpg" style="width:100%; border-radius:8px;">
+  </a>
+  <h3>ShawOS</h3>
+  <p>An "operating system" I made for fun with ChatGPT.</p>
+</div>
+
+  </section>
+
+  <section>
+    <h2>About Me</h2>
+<p><strong>Romanian teen computer enthusiast</strong></p>
+
+<p>🔭 I’m currently working on developing skills</p>
+<p>🌱 I’m currently learning coding</p>
+<p>👯 I’m looking to collaborate on operating system projects</p>
+<p>💬 Ask me anything</p>
+  </section>
+
+  <footer>
+    <p>© 2026 iancdavid</p>
+  </footer>
+
+</body>
+</html>
