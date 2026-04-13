@@ -8,3 +8,5 @@ My first website's folder
 
 ## Image
 ![Scrolled out photo](iancdavid.png)
+
+## Thats all for now, thanks
